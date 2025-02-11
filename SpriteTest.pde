@@ -58,7 +58,8 @@ class Animation {
     // Unit 4: Iteration (Using a `for` loop to load multiple images)
     for (int i = 0; i < imageCount; i++) {
       // Generates filenames dynamically (e.g., rabbit0000.png, rabbit0001.png, ...)
-      String filename = imagePrefix + nf(i, 4) + ".png"; 
+      String filename = imagePrefix + nf(i, 4) + ".png"; // nf() function is used to add zeros to the left and/or right of a number. 
+      //This is typically for aligning a list of numbers. 
       
       // Uses the loadImage method to load each image
       images[i] = loadImage(filename);
