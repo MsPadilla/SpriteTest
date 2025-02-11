@@ -1,3 +1,3 @@
 # SpriteTest
 
-Sample of sprite animation with mouse event controls and mirror image reversal if left of the cursor. 
+Sample of sprite animation from .png image files with mouse event controls and mirror image reversal if left of the cursor. 
