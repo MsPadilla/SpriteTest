@@ -13,7 +13,7 @@
  * - Unit 6: Arrays and ArrayLists (storing animation frames)
  */
 
-Animation animation1; // Declares an instance variable to hold the animation object
+Animation animation1; // Declares a variable to hold the animation object
 
 // Unit 1: Variables and Data Types
 float xpos; // Stores the sprite's current x position
