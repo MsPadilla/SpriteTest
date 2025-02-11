@@ -65,11 +65,11 @@ class Animation {
       images[i] = loadImage(filename);
       
       // Debugging: Check if images load correctly
-      if (images[i] == null) {
-        println("Failed to load: " + filename); // Prints an error if the image fails to load
-      } else {
-        println("Loaded: " + filename); // Confirms the image loaded successfully
-      }
+      //if (images[i] == null) {
+       // println("Failed to load: " + filename); // Prints an error if the image fails to load
+      //} else {
+      //  println("Loaded: " + filename); // Confirms the image loaded successfully
+      //}
     }
   }
 
