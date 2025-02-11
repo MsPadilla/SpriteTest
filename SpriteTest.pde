@@ -22,7 +22,7 @@ float drag = 30.0; // Controls the smoothness of movement (higher value = slower
 
 void setup() {
   size(640, 360); // Sets the window size (Unit 2: Calling a method)
-  frameRate(24);  // Sets the animation speed (24 frames per second)
+  frameRate(12);  // Sets the animation speed (24 frames per second)
   
   // Instantiates an Animation object (Unit 2: Creating objects)
   animation1 = new Animation("rabbit", 7); // Loads a sprite with 7 frames
